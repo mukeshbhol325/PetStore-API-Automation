@@ -3,6 +3,7 @@
   <groupId>PetStoreAutomation</groupId>
   <artifactId>PetStoreAutomation</artifactId>
   <version>0.0.1-SNAPSHOT</version>
+  <packaging>war</packaging> 
   <build>
     <!-- To define the plugin version in your parent POM -->
     <pluginManagement>

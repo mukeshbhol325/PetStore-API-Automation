@@ -106,7 +106,8 @@ jobs:
             sudo docker run --rm \
               -v ~/petstore-results/target:/app/target \
               -v ~/petstore-results/reports:/app/reports \
-              $IMAGE
+              $IMAGE \
+              mvn -B test
 
             # Clean up old unused images to save disk space
             sudo docker image prune -f
